@@ -97,6 +97,10 @@
   grid-column: span 2; 
   grid-row: span 2;
 }
+.footer{
+  display: grid;
+  justify-content: center;
+}
 .footer__copy, .footer__text {
   color: var(--color-footertext);
 }
