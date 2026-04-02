@@ -28,15 +28,15 @@
     display: grid;
     grid-template: minmax(100px, auto) 1fr minmax(70px, auto) / 1fr; /* встановлюємо розміри шапки висота minmax (мінімальні та максимальні) 1fr-на всю сторінку далі футер, через слеш розмір колонки*/;
     grid-template-areas: 
-    "header"
-	  "main"
-	  "footer";
+    "header"  
+	"main"  
+	"footer";  
   }
 
     .main {
-      grid-area: main;
-      display: grid;
-      grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr 1fr;
+      grid-area: main;  
+      display: grid;  
+      grid-template: 1fr / 1fr minmax(auto, 300px) minmax(auto, 1100px) 1fr 1fr;  
 
     }
     .content {
